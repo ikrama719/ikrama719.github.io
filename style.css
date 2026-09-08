@@ -1,9 +1,9 @@
 body {
-background-color: rgb(202, 129, 129);
+background-color: #111827
 }
 
 h1{
-    color: rgb(255, 255, 255);
+    color: #F9FAFB
 }
 
 h1 {
@@ -11,13 +11,27 @@ h1 {
 }
 
 h2{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h2{
-    color: antiquewhite;
+    color: #F9FAFB
 }
 
 a{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: serif;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+height: 50px;
+background-color: rgba(33, 29, 92, 0.815);
+}
+
+h1 {
+text-align: center;
+text-decoration: underline;
 }
