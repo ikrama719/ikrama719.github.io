@@ -1,0 +1,39 @@
+body{
+    background-color: #111827;
+
+}
+
+header{
+    height: 30px;
+background-color: rgba(33, 29, 92, 0.815);
+}
+
+h1{
+    color: aliceblue;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Unvisited link */
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+}
+
+/* Visited link */
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+/* Mouse over link */
+a:hover {
+    color: rgb(238, 0, 119);
+    text-decoration: underline;
+}
+
+/* Selected link (while clicking) */
+a:active {
+    color: rgb(21, 33, 100);
+}
