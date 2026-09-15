@@ -1,14 +1,15 @@
 body {
 background-color: #111827;
-background: linear-gradient(135deg,#050b1f,#101f4d);
 }
 
+h1{
+    color: #7261b6;
+}
 
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
     font-weight: bold;
-    color: #7261b6;
 }
 
 .topnav{
@@ -129,12 +130,13 @@ transform: translateY(125px);
 
 .text-box3 {
 width: 8%; 
-height: 4vh; 
+height: 28vh; 
 overflow-y: auto; 
-padding: 10px;
+padding: 20px;
 background: #1e293b;
 color: white;
 border-radius: 6px;
+margin-right: auto;
 transform: translateY(-840px);
 align-content: center;
 }
@@ -146,42 +148,4 @@ li{
 
 b{
     color: #b0b8c0;
-}
-
-.skills-container {
-display: flex;
-flex-direction: column;
-gap: 8px; /* space between boxes */
-}
-.skill-box {
-background-color: #1e293b;
-color: white;
-padding: 10px 15px;
-border-radius: 8px;
-width: fit-content;
-font-family: monospace;
-transform: translateY(-760px);
-}
-
-h3{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    color: #7261b6;
-    transform: translateY(-750px);
-    font-size: x-large;
-}
-
-.text-box5{
-    width: 30%; 
-height: 35vh; 
-overflow-y: auto; 
-padding: 20px;
-background: #1e293b;
-color: rgb(185, 182, 182);
-border-radius: 12px;
-align-content: center;
-margin: 0 auto;
-align-self: center;
-transform: translateY(-700px);
 }
