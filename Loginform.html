@@ -19,6 +19,24 @@ var email = document.forms["form1"]["email"].value;
 var password1 = document.forms["form1"]["password1"].value;
 var password2 = document.forms["form1"]["password2"].value;
 
+
+{
+let password1 = document.getElementById("password1").value;
+let password2 = document.getElementById("password2").value;
+
+if (password1.length && password2.length > 7)
+{
+    alert("Your password good bye")
+    return true;
+}
+if (password1.length && password2.length < 8)
+{
+    alert("PASSWORD NOT STRONG")
+    return false;
+}
+
+}
+
 if (firstname == null || firstname == "")
 {
     alert("Please enter your first name");
@@ -58,6 +76,17 @@ else
     return false;
 }
 
+if (foundCap > 1 && foundNum > foundCap + 3 && foundNum < password1.length - 2)
+if (foundCap > 1 && foundNum > foundCap + 3 && foundNum < password2.length - 2)
+{
+    return true;
+}
+else
+{
+    alert("Password is not strong enough");
+    return false;
+}
+
     return true;
            }
             </script>
@@ -78,10 +107,10 @@ else
             <input type="text" id="email" name="email">
 
             
-            <label for="password1">Password 1</label>
+            <label for="password1">Password </label>
             <input type="password" id="password1" name="password1">
 
-            <label for="password2">Password 2</label>
+            <label for="password2">Confirm Password</label>
             <input type="password" id="password2" name="password2">
 
             <label for="purpose">Purpose</label>
